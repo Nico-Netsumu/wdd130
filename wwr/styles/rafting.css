@@ -75,10 +75,10 @@ header nav a:hover {
     justify-content: space-between;
     max-width: 800px;
     margin: 0 auto;
-    background-color: #E94F37;
+    background-color: #44BBA4;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: #44BBA4;
+    box-shadow: #E94F37;
 }
 
 .hero article img {
