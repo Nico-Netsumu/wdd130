@@ -97,52 +97,53 @@ header nav a:hover {
     margin-right: 30px;
 }
 
-/* Happy Client Fix */
-.happyclient img {
-    max-width: 100%; /* Ensure proper scaling */
+.happyclient {
+    max-width: 150px; /* Set a fixed size for the image */
     height: auto;
     border-radius: 10px;
+    margin-left: 15px; /* Adjust spacing if necessary */
 }
 
+
+/* History Section */
 /* History Section */
 .history-section {
-    background-color: #E94F37; /* Solid HEX color applied */
-    color: white; /* Ensure readability */
+    background-color: #E94F37; /* Fix the missing background color */
+    color: white;
     padding: 40px 20px;
-    text-align: center; /* Center-align title and text */
-    border-radius: 10px; /* Rounded corners for aesthetics */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Slight shadow for depth */
+    text-align: center; /* Center-align the entire section */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add depth */
 }
 
 .history-section h2 {
-    font-size: 2.5rem; /* Adjust title size */
+    font-size: 2.5rem; /* Larger font size for the title */
     margin-bottom: 20px;
-    text-align: center; /* Ensure title stays centered */
-    color: white; /* Explicitly set color for consistency */
+    text-align: center; /* Ensure the title stays centered */
+    color: white; /* Ensure title text color is consistent */
 }
 
 .history-content {
     display: flex;
-    align-items: center; /* Vertically center content */
-    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Vertically center the content */
+    justify-content: space-around; /* Space items evenly */
+    flex-wrap: wrap; /* Ensure responsiveness on smaller screens */
     gap: 20px;
-    flex-wrap: wrap; /* Ensure responsiveness */
-    margin-top: 20px; /* Add space below the title */
+    margin-top: 20px; /* Space between title and content */
 }
 
 .history-content p {
     flex: 1;
-    text-align: justify; /* Align text neatly */
+    max-width: 300px; /* Limit text width for better readability */
+    text-align: justify; /* Justify text for a neat layout */
     font-size: 1rem;
-    margin: 0;
-    max-width: 300px; /* Ensure text does not stretch too wide */
 }
 
 .history-content img {
-    max-width: 300px; /* Limit the size of the image */
+    max-width: 300px; /* Keep image size manageable */
     height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px; /* Rounded corners for the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for emphasis */
 }
 
 /* Adventures Section */
