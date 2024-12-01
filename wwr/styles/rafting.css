@@ -60,7 +60,7 @@ header nav a:hover {
 
 .hero img {
     width: 100%; /* Make it responsive */
-    max-width: 300px; /* Maximum size to prevent corruption */
+    max-width: 700px; /* Maximum size to prevent corruption */
     height: auto;
     margin-bottom: 20px;
 }
