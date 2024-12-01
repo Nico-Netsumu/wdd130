@@ -98,6 +98,12 @@ header nav a:hover {
 
 /* History Section Styling */
 
+.happyclient img {
+    max-width: 100%; /* Makes it fit within its container */
+    height: auto;
+    border-radius: 10px; /* Add styling here */
+}
+
 .history-section {
     background-color: #E94F37; /* Solid background color */
     padding: 40px 20px;
@@ -130,12 +136,11 @@ header nav a:hover {
 }
 
 .history-content img {
-    max-width: 200px; /* Adjust size as needed */
+    max-width: 200px; /* Ensures the history image stays appropriately sized */
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
-
 
 section.adventures {
     display: flex;
