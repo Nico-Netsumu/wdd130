@@ -98,48 +98,46 @@ header nav a:hover {
 }
 
 /* History Section */
-section.history {
-    background-color: #E94F37; /* Ensure background color */
-    color: white;
+.history-section {
+    background-color: #E94F37; /* Solid HEX color applied */
+    color: white; /* Ensure readability */
     padding: 40px 20px;
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center; /* Center-align title and text */
+    border-radius: 10px; /* Rounded corners for aesthetics */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Slight shadow for depth */
 }
 
-.history h2 {
-    font-size: 2.5rem;
+.history-section h2 {
+    font-size: 2.5rem; /* Adjust title size */
     margin-bottom: 20px;
+    text-align: center; /* Ensure title stays centered */
+    color: white; /* Explicitly set color for consistency */
 }
 
-.history content {
+.history-content {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: center; /* Vertically center content */
+    justify-content: center; /* Center items horizontally */
     gap: 20px;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Ensure responsiveness */
+    margin-top: 20px; /* Add space below the title */
 }
 
-.history content p {
+.history-content p {
     flex: 1;
-    text-align: justify;
+    text-align: justify; /* Align text neatly */
     font-size: 1rem;
     margin: 0;
+    max-width: 300px; /* Ensure text does not stretch too wide */
 }
 
-.history content img {
-    width: 200px;
+.history-content img {
+    max-width: 300px; /* Limit the size of the image */
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Happy Client Fix */
-.happyclient img {
-    max-width: 100%; /* Ensure proper scaling */
-    height: auto;
-    border-radius: 10px;
-}
 
 /* Adventures Section */
 section.adventures {
