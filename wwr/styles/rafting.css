@@ -58,8 +58,8 @@ header nav a:hover {
 }
 
 .hero img {
-    width: 100%;
-    max-width: 200px;
+    width: 130%;
+    max-width: 250px;
     height: auto;
     margin-bottom: 20px;
 }
