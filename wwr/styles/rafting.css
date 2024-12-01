@@ -136,7 +136,7 @@ header nav a:hover {
 }
 
 .history-content img {
-    max-width: 200px; /* Ensures the history image stays appropriately sized */
+    max-width: 200px; /* Target history image size */
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
