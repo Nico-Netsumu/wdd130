@@ -96,8 +96,6 @@ header nav a:hover {
     margin-right: 30px;
 }
 
-/* Section Styling */
-/* History Section Styling */
 /* History Section Styling */
 section.history {
     background-color: #E94F37; /* Solid red background */
@@ -129,13 +127,11 @@ section.history {
 
 /* Styling the image */
 .history-image {
-    max-width: 5000px; /* Limit image size */
+    max-width: 500px; /* Limit image size */
     height: auto;
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add subtle shadow */
 }
-
-
 
 section.adventures {
     display: flex;
