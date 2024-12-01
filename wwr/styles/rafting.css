@@ -97,6 +97,13 @@ header nav a:hover {
     margin-right: 30px;
 }
 
+/* Happy Client Fix */
+.happyclient img {
+    max-width: 100%; /* Ensure proper scaling */
+    height: auto;
+    border-radius: 10px;
+}
+
 /* History Section */
 .history-section {
     background-color: #E94F37; /* Solid HEX color applied */
