@@ -98,41 +98,43 @@ header nav a:hover {
 
 /* Section Styling */
 /* History Section Styling */
+/* History Section Styling */
 section.history {
-    background-color: #E94F37; /* Solid colored background */
+    background-color: #E94F37; /* Solid red background */
     padding: 40px 20px;
     text-align: center;
-    color: white; /* Ensure text contrasts well */
-    border-radius: 10px; /* Optional rounded corners */
+    color: white;
+    border-radius: 10px;
     margin: 20px auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
 }
 
-/* Layout for content inside the History section */
-.history-content {
+/* Flexbox for Horizontal Layout */
+.history-container {
     display: flex;
-    align-items: center;
+    align-items: center; /* Vertically center items */
     justify-content: space-between;
-    gap: 20px; /* Spacing between elements */
+    gap: 20px; /* Space between text and image */
     max-width: 1000px;
     margin: 0 auto;
+    text-align: left;
 }
 
 /* Styling the text */
 .history-text {
-    flex: 1; /* Allow text to expand evenly */
-    text-align: justify; /* Align text for cleaner readability */
+    flex: 1; /* Text takes up available space evenly */
     font-size: 1.1rem;
     line-height: 1.6;
 }
 
 /* Styling the image */
 .history-image {
-    max-width: 120px; /* Set appropriate image size */
+    max-width: 200px; /* Limit image size */
     height: auto;
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add subtle shadow */
 }
+
 
 
 section.adventures {
