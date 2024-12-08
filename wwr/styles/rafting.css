@@ -215,6 +215,36 @@ header nav a:hover {
     background-color: #3A9E88;
 }
 
+/* Adventures Section */
+section.adventures {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #A0A0C3;
+}
+
+section.adventures figure {
+    margin: 10px;
+    text-align: center;
+    flex-basis: calc(20% - 20px); /* Five equally spaced items */
+}
+
+section.adventures img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section.adventures figcaption {
+    font-size: 0.9rem;
+    color: #4A4A73;
+    font-weight: bold;
+}
+
 /* Footer Styling */
 footer {
     display: flex;
