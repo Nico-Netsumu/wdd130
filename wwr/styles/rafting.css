@@ -158,14 +158,14 @@ header nav a:hover {
 .grid-item {
     padding: 20px;
     text-align: center;
-    background-color: #FF4500;
+    background-color: #FF4500; /* Default red-orange background */
     color: white;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 .grid-item:nth-child(2) {
-    background-color: #00a676;
+    background-color: #00a676; /* Green background for Thrill Seekers */
 }
 
 .grid-item img {
