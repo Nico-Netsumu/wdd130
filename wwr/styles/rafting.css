@@ -219,7 +219,6 @@ section.adventures figcaption {
     flex-wrap: wrap;
 }
 
-.history-content p,
 .history-content img {
     flex: 1;
     max-width: 300px;
