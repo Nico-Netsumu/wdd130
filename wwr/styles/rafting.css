@@ -224,6 +224,29 @@ header nav a:hover {
     background-color: #00a676; /* Bright green background */
 }
 
+.griditem2 {
+    padding: 20px;
+    text-align: center;
+    background-color: #00a676; /* Bright red-orange background */
+    color: white;
+    border-radius: 10px; /* Add rounded corners */
+}
+
+.griditem2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for images */
+    margin-bottom: 10px;
+}
+
+.griditem2 h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.griditem2 p {
+    font-size: 1rem;
+}
 
 /* Contact Section */
 .contact-info {
