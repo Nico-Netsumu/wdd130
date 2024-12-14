@@ -233,25 +233,110 @@ section.adventures figcaption {
 .contact-info {
     text-align: center;
     padding: 40px;
-}
-
-.contact-info h2 {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
+    background-color: #F9F9F9;
+    margin-bottom: 40px;
 }
 
 .contact-info .info {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
-/* Google Map */
+.contact-info .info div {
+    text-align: center;
+}
+
+.contact-info h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    color: #393E41;
+    margin-bottom: 10px;
+}
+
 .google-map {
+    width: 100%;
     max-width: 600px;
     height: 400px;
+    border: none; /* Remove inline styles */
     margin: 0 auto;
+    display: block;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Employee Profiles Section */
+.employee-profiles {
+    text-align: center;
+    padding: 40px;
+    background-color: #EDECFB;
+}
+
+.profiles {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.profiles figure {
+    text-align: center;
+    max-width: 200px;
+}
+
+.profiles img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profiles figcaption {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #393E41;
+    font-weight: bold;
+}
+
+/* Contact Form */
+.contact-form {
+    padding: 40px;
+    background-color: #FFFFFF;
+    border-top: 2px solid #A0A0C3;
+}
+
+.contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    background-color: #44BBA4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #3A9E88;
 }
 
 /* =============== FOOTER =============== */
