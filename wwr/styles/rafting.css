@@ -144,21 +144,86 @@ header nav a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for emphasis */
 }
 
+/* Index Section */
 .newslettersignup {
-    background-color: #E94F37; /* Fix the missing background color */
+    background-color: #0073e6; /* Bright blue background */
     color: white;
-    padding: 40px 20px;
-    text-align: center; /* Center-align the entire section */
-    border-radius: 10px; /* Add rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add depth */
+    padding: 20px;
+    text-align: center;
+    border-radius: 0; /* Remove rounded corners */
+    margin-bottom: 20px;
 }
 
 .newslettersignup h2 {
-    font-size: 2.5rem; /* Larger font size for the title */
-    margin-bottom: 20px;
-    text-align: center; /* Ensure the title stays centered */
-    color: white; /* Ensure title text color is consistent */
+    font-size: 1.8rem; /* Slightly smaller heading */
+    margin-bottom: 10px;
 }
+
+/* CTA Section */
+.cta {
+    background-color: #EDECFB;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 0; /* Remove rounded corners */
+    border-top: 5px solid #ff4500; /* Orange border for emphasis */
+    color: black;
+}
+
+.cta h2 {
+    font-size: 1.8rem;
+    color: #4A4A73;
+    margin-bottom: 15px;
+}
+
+.cta p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Grid Layout for Family and Thrill Sections */
+.site-purpose {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.grid-item {
+    padding: 20px;
+    text-align: center;
+    background-color: #FF4500; /* Bright red-orange background */
+    color: white;
+    border-radius: 10px; /* Add rounded corners */
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for images */
+    margin-bottom: 10px;
+}
+
+.grid-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.grid-item p {
+    font-size: 1rem;
+}
+
+/* Green Background */
+.grid-item:nth-child(2) {
+    background-color: #00a676; /* Bright green background */
+}
+
 
 /* Contact Section */
 .contact-info {
