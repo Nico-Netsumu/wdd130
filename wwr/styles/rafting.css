@@ -144,6 +144,22 @@ header nav a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for emphasis */
 }
 
+.newslettersignup {
+    background-color: #E94F37; /* Fix the missing background color */
+    color: white;
+    padding: 40px 20px;
+    text-align: center; /* Center-align the entire section */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add depth */
+}
+
+.newslettersignup h2 {
+    font-size: 2.5rem; /* Larger font size for the title */
+    margin-bottom: 20px;
+    text-align: center; /* Ensure the title stays centered */
+    color: white; /* Ensure title text color is consistent */
+}
+
 /* Contact Section */
 .contact-info {
     text-align: center;
