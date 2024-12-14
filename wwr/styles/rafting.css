@@ -183,6 +183,17 @@ header nav a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
+.griditem2 img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.griditem2 h3 {
+    font-size: 1.5rem;
+}
+
+
 /* Adventures Section */
 section.adventures {
     display: flex;
