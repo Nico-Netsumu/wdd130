@@ -1,11 +1,10 @@
-/* Reset and Box Sizing */
+/* Blank line */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body Styling */
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
@@ -13,7 +12,17 @@ body {
     background-color: #F9F9F9;
 }
 
-/* Header Section */
+/* Links */
+a {
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a:hover {
+    transform: scale(1.05);
+}
+
+/* Header */
 header {
     font-family: 'Merriweather', sans-serif;
     display: grid;
@@ -37,12 +46,10 @@ header nav {
 }
 
 header nav a {
-    text-decoration: none;
     font-weight: bold;
     color: #333;
     padding: 10px;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
 }
 
 header nav a:hover {
@@ -50,10 +57,10 @@ header nav a:hover {
     color: white;
 }
 
-/* Hero Section */
+/* HERO SECTION  */
 .hero {
-    background-color: #EDECFB;
     text-align: center;
+    background-color: #EDECFB;
     padding: 20px;
     border-bottom: 2px solid #A0A0C3;
 }
@@ -67,48 +74,43 @@ header nav a:hover {
 
 .hero h1 {
     font-size: 2.5rem;
-    margin-bottom: 20px;
     color: #4A4A73;
+    margin-bottom: 20px;
 }
 
 .hero article {
     display: flex;
-    align-items: flex-start;
     justify-content: space-between;
+    gap: 20px;
     max-width: 800px;
     margin: 0 auto;
     background-color: #44BBA4;
     padding: 20px;
     border-radius: 10px;
-    gap: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .hero article img {
     width: 150px;
-    height: auto;
-    margin-left: 15px;
     border-radius: 10px;
 }
 
 .hero article p {
     flex: 1;
     text-align: left;
-    margin-right: 30px;
 }
 
-/* Newsletter Signup Section */
+/* Sections */
+/* Newsletter Section */
 .newslettersignup {
     background-color: #0073e6;
     color: white;
-    padding: 20px;
     text-align: center;
-    margin-bottom: 20px;
+    padding: 20px;
 }
 
 .newslettersignup h2 {
     font-size: 1.8rem;
-    margin-bottom: 10px;
 }
 
 /* CTA Section */
@@ -116,7 +118,6 @@ header nav a:hover {
     background-color: #EDECFB;
     text-align: center;
     padding: 30px 20px;
-    color: black;
 }
 
 .cta h2 {
@@ -125,28 +126,19 @@ header nav a:hover {
     margin-bottom: 15px;
 }
 
-.cta p {
-    font-size: 1rem;
-    margin-bottom: 20px;
-}
-
 .cta a {
     display: inline-block;
-    text-decoration: none;
-    font-size: 1rem;
     background-color: #ff4500;
     color: white;
     padding: 10px 20px;
     border-radius: 25px;
-    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .cta a:hover {
     background-color: #e03d00;
-    transform: scale(1.05);
 }
 
-/* Grid Layout for Adventure Sections */
+/* Grid Layout for Adventures */
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -156,43 +148,29 @@ header nav a:hover {
 }
 
 .grid-item {
-    padding: 20px;
     text-align: center;
-    background-color: #FF4500; /* Default red-orange background */
+    padding: 20px;
     color: white;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.grid-item:nth-child(2) {
-    background-color: #00a676; /* Green background for Thrill Seekers */
+.grid-item:nth-child(odd) {
+    background-color: #FF4500;
+}
+
+.grid-item:nth-child(even) {
+    background-color: #00a676;
 }
 
 .grid-item img {
     max-width: 100%;
-    height: auto;
     border-radius: 10px;
     margin-bottom: 10px;
 }
 
 .grid-item h3 {
     font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-.grid-item p {
-    font-size: 1rem;
-}
-
-.griditem2 {
-    padding: 20px;
-    text-align: center;
-    background-color: #44BBA4; /* Default red-orange background */
-    color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-}
-    
 }
 
 /* Adventures Section */
@@ -201,64 +179,53 @@ section.adventures {
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 40px 20px;
-    background-color: #FFFFFF;
-    border-bottom: 2px solid #A0A0C3;
 }
 
 section.adventures figure {
-    margin: 10px;
-    text-align: center;
     flex-basis: calc(20% - 20px);
+    text-align: center;
 }
 
 section.adventures img {
     width: 100%;
-    height: auto;
     border-radius: 10px;
-    margin-bottom: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 section.adventures figcaption {
     font-size: 0.9rem;
-    color: #4A4A73;
     font-weight: bold;
+    color: #4A4A73;
 }
 
 /* History Section */
 .history-section {
     background-color: #E94F37;
     color: white;
-    padding: 40px 20px;
     text-align: center;
+    padding: 40px 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .history-section h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: white;
 }
 
 .history-content {
     display: flex;
-    align-items: center;
     justify-content: space-around;
-    flex-wrap: wrap;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
-.history-content p {
+.history-content p,
+.history-content img {
     flex: 1;
     max-width: 300px;
-    text-align: justify;
-    font-size: 1rem;
 }
 
 .history-content img {
-    max-width: 300px;
-    height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
@@ -267,34 +234,28 @@ section.adventures figcaption {
 .contact-info {
     text-align: center;
     padding: 40px;
-    background-color: #F9F9F9;
-    margin-bottom: 40px;
+}
+
+.contact-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
 }
 
 .contact-info .info {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-bottom: 20px;
 }
 
-.contact-info h2 {
-    font-family: 'Merriweather', serif;
-    font-size: 1.5rem;
-    color: #393E41;
-    margin-bottom: 10px;
-}
-
+/* Google Map */
 .google-map {
-    width: 100%;
     max-width: 600px;
     height: 400px;
     margin: 0 auto;
-    display: block;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Footer Styling */
+/* =============== FOOTER =============== */
 footer {
     display: flex;
     justify-content: space-between;
@@ -306,7 +267,6 @@ footer {
 }
 
 footer p {
-    margin: 0;
     font-size: 0.9rem;
 }
 
@@ -317,7 +277,6 @@ footer .social {
 
 footer img {
     width: 30px;
-    height: auto;
     transition: transform 0.3s ease;
 }
 
